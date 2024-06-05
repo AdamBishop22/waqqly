@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Wagg.ly</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MeFamily
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">WAGG.LY - Find Local Dog Walkers</a></h1>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-11.jpg)">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-12.jpg)">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-13.jpg)">
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= My & Family Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Service</h2>
+          <p>Welcome to our online platform dedicated to connecting dog owners with trusted and reliable dog walkers. Our user-friendly website simplifies the process of finding the perfect companion for your furry friend's daily walks. Whether you have a hectic schedule, limited time, or just want to ensure your dog gets the exercise and attention they need, our platform is here to assist.</p>
+        </div>
+      </div>
+    </section><!-- End My & Family Section -->
+
+    <!-- Walkers Form Section -->
+    <div class="section-title">
+     <h2>Add a walker</h2>
+     <p>Fill in this form if you would like to be added to the walker database. This will allow you to be paired to any suitable dogs that are in need of a companion to take them for their walks. </p>
+    <section id="add-walker" class="add-walker">
+      <div class="container">
+            <form class="walker-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="search" name="name" class="walker-username" id="walker-username" placeholder="Walker Username" required>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="search" class="walker-name" name="name" id="walker-name" placeholder="Your Name" required>
+                  <div class="validate"></div>
+                </div>
+              </br>
+            </br>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="walker-email" name="email" id="walker-email" placeholder="Your Email" required>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="search" class="walker-town" name="town" id="walker-town" placeholder="Your Town" required>
+                  <div class="validate"></div>
+                </div>
+              </div>
+            </br>
+            <div class="section-title">
+              <div class="text-center"><button class="submit-walker" type="submit">Add Walker</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="section-title">
+        <h2></h2>
+      </br>
+      </br>
+      </div>
+    </section><!-- End Walkers Form Section -->
+
+    <!-- Dog Form Section -->
+    <div class="section-title">
+      <h2>Add a Dog</h2>
+      <p>Fill in this form if you would like to add your dog to the dog database. This will allow your dog to be matched to one of our dedicated dog walkers.</p>
+    <section id="add-dog" class="add-dog">
+        <div class="container">
+              <form class="dog-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="search" class="dog-username" id="dog-username" placeholder="Dog Username" required/>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="search" class="dog-name" id="dog-name" placeholder="Dog Name" required/>
+                    <div class="validate"></div>
+                  </div>
+                </br>
+              </br>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="search" class="dog-breed" id="dog-breed" placeholder="Dog Breed" required/>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="search" class="dog-town" id="dog-town" placeholder="Your Town" required/>
+                    <div class="validate"></div>
+                  </div>
+                </div>
+              </br>
+                <div class="text-center"><button class="submit-dog" type="submit">Add Dog</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section><!-- End Dog Form Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>WAGG.LY</h3>
+      <p>Connecting Canines with Caring Walkers.</p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script type="module" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

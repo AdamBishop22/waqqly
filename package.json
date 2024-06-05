@@ -1,0 +1,14 @@
+{
+  "name": "products-manager",
+  "version": "1.0.0",
+  "description": "Product Manager web application for Tailwind Traders",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2",
+    "nodejs": "^0.0.0"
+  }
+}
+
